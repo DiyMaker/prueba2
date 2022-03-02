@@ -3,14 +3,13 @@
     'name': "lista_tareas2",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Es una lista de tareas nueva""",
 
     'description': """
         Long description of module's purpose
     """,
 
-    'author': "My Company",
+    'author': "Alejandro Gonzalez Hermoso",
     'website': "http://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
@@ -18,13 +17,14 @@
     # for the full list
     'category': 'Uncategorized',
     'version': '0.1',
+    'application':True,
 
     # any module necessary for this one to work correctly
     'depends': ['base'],
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
     ],
